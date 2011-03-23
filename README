@@ -1,9 +1,15 @@
 git-release is a general release tool for git.
 
-It is written in Korn Shell though it should be compatible with Bash as well.
+It is written in Bourne Shell though it should be compatible with Bash as well.
 
 The script keeps it's configuration in a 'git config' formatted file.
 The configuration file name is .releaserc.
 To create the initial configuration run 'release.sh config'.
 
+This script requires GNU shtool (http://www.gnu.org/software/shtool/) to handle lexical version names.
+It also depends on the makeself tool (http://megastep.org/makeself/) to create self-extracting archives.
+Neither of these tools are bundled with the script.
+
+At this time this is not a general purpose tool, but I will be working on making it more flexible and
+generic.  I'm happy to take feature requests and/or patches.
 
