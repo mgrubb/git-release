@@ -3,10 +3,9 @@
 ### Author: Michael Grubb <mtg@dailyvoid.com>
 ### File:   /Users/mgrubb/tmp/release/release.sh
 ### Description: release.sh -- <+ SHORT_DESC +>
-### Copyright: (C) 2010, Michael Grubb <mtg@dailyvoid.com>
+### Copyright: (C) 2010-2012, Michael Grubb <mtg@dailyvoid.com>
 ### Modeline: vim:tw=79:sw=4:ts=4:ai:
-### Description: <+ DESCRIPTION +>
-
+### License: BSD (See README)
 
 PROG=$(basename $0)
 USAGE="Usage: $PROG operation args
